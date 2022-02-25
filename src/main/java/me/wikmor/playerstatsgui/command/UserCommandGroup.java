@@ -70,7 +70,6 @@ public final class UserCommandGroup extends SimpleCommandGroup {
 		// Register a sample command for this group
 		registerSubcommand(new ViewGroupCommand());
 		registerSubcommand(new TopGroupCommand());
-		registerSubcommand(new SetGroupCommand());
 
 		// Register the premade commands from Foundation
 		registerSubcommand(new DebugCommand("playerstatsgui.command.debug"));
