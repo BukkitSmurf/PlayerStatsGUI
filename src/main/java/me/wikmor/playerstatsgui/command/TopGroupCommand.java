@@ -7,8 +7,8 @@ public final class TopGroupCommand extends SimpleSubCommand {
 
 	public TopGroupCommand() {
 		super("top");
-		
-		setDescription("Open leaderboard menu.");
+
+		setDescription("Open the leaderboard menu.");
 	}
 
 	@Override

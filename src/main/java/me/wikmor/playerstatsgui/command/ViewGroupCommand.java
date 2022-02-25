@@ -17,7 +17,7 @@ public final class ViewGroupCommand extends SimpleSubCommand {
 		super("view");
 
 		setUsage("[player]");
-		setDescription("Display the menu showing a player's stats.");
+		setDescription("Open the menu showing the player's stats.");
 	}
 
 	/**
